@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Prueba</string>
+    <string name="title_home">Venta</string>
+    <string name="title_dashboard">Ajustes</string>
+    <string name="title_notifications">Cierre</string>
+    <string name="title_catalogo">Catálogo</string>
+</resources>
