@@ -58,8 +58,10 @@ class HomeFragment : Fragment() {
 
         //Código para los mensajes del Escaner
         val result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data)
-        //Mandar mensajes de lectura
+        //Mandar mensajes de lecturaval
+        val resultado = result.contents
         if (result != null) {
+
             if (result.contents == null) {
                 Toast.makeText(requireActivity(), "Lectura erronea", Toast.LENGTH_SHORT).show()
 
@@ -73,7 +75,7 @@ class HomeFragment : Fragment() {
                 ).show()
 
                 //textView.setText(result.contents)
-                binding.textHome.text = "${result.contents}"
+                binding.textHome.text = resultado
 
 
             }
