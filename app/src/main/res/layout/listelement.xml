@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/card"
+    cardCornerRadius="8dp"
+    contentPadding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:foreground="?selectableItemBackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="177dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/uniArt"
+                android:layout_width="39dp"
+                android:layout_height="66dp"
+                android:layout_marginTop="40dp"
+                android:text="Unidades"
+                app:layout_constraintEnd_toStartOf="@+id/nameArt"
+                app:layout_constraintHorizontal_bias="0.872"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/codArt"
+                android:layout_width="168dp"
+                android:layout_height="29dp"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="12dp"
+                android:text="Código Articulo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+
+                android:id="@+id/descriptionArt"
+                android:layout_width="166dp"
+                android:layout_height="42dp"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="12dp"
+                android:text="Descripcion Articulo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/nameArt" />
+
+            <TextView
+                android:id="@+id/nameArt"
+                android:layout_width="167dp"
+                android:layout_height="24dp"
+                android:layout_marginStart="180dp"
+                android:layout_marginTop="8dp"
+                android:text="Nombre Articulo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/codArt" />
+
+            <TextView
+                android:id="@+id/priceArt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:layout_marginEnd="64dp"
+                android:text="Precio"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/descriptionArt" />
+
+            <ImageView
+                android:id="@+id/fotoArt"
+                android:layout_width="98dp"
+                android:layout_height="109dp"
+                android:alpha="0.9"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/uniArt"
+                app:layout_constraintHorizontal_bias="0.64"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.235"
+                tools:srcCompat="@tools:sample/avatars" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -10,11 +10,14 @@
         <entry key="..\:/Users/JoseOrozco/AndroidStudioProjects/Prueba/app/src/main/res/drawable/ic_launcher_background.xml" value="0.137" />
         <entry key="..\:/Users/JoseOrozco/AndroidStudioProjects/Prueba/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.137" />
         <entry key="..\:/Users/JoseOrozco/AndroidStudioProjects/Prueba/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/JoseOrozco/AndroidStudioProjects/Prueba/app/src/main/res/layout/elementlist.xml" value="0.21422101449275363" />
         <entry key="..\:/Users/JoseOrozco/AndroidStudioProjects/Prueba/app/src/main/res/layout/escaner.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/JoseOrozco/AndroidStudioProjects/Prueba/app/src/main/res/layout/fragment_catalogo.xml" value="0.21422101449275363" />
         <entry key="..\:/Users/JoseOrozco/AndroidStudioProjects/Prueba/app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
         <entry key="..\:/Users/JoseOrozco/AndroidStudioProjects/Prueba/app/src/main/res/layout/fragment_home.xml" value="0.22" />
         <entry key="..\:/Users/JoseOrozco/AndroidStudioProjects/Prueba/app/src/main/res/layout/fragment_notifications.xml" value="0.21422101449275363" />
+        <entry key="..\:/Users/JoseOrozco/AndroidStudioProjects/Prueba/app/src/main/res/layout/listelement.xml" value="0.25" />
+        <entry key="..\:/Users/JoseOrozco/AndroidStudioProjects/Prueba/app/src/main/res/layout/listelements.xml" value="0.21422101449275363" />
         <entry key="..\:/Users/JoseOrozco/AndroidStudioProjects/Prueba/app/src/main/res/menu/bottom_nav_menu.xml" value="0.22" />
         <entry key="..\:/Users/JoseOrozco/AndroidStudioProjects/Prueba/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.137" />
       </map>
